@@ -67,6 +67,51 @@ function App() {
 
       {/* Main Content */}
       <Container className="main-content mb-5">
+      <Row>
+          {/* Card 1 */}
+          <Col md={6} className="mb-2">
+            <Card>
+              <Row className="g-0">
+                <Col md={4}>
+                  <Card.Img src="https://via.placeholder.com/150x250" className="img-fluid rounded-start" alt="..."/>
+                </Col>
+                <Col md={8}>
+                  <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
+                    <Card.Text><small className="text-muted">Last updated 3 mins ago</small></Card.Text>
+                  </Card.Body>
+                </Col>
+              </Row>
+            </Card>
+          </Col>
+          {/* Card 2 */}
+          <Col md={6} className="mb-2">
+            <Card>
+              <Row className="g-0">
+                <Col md={4}>
+                  <Card.Img src="https://via.placeholder.com/150x250" className="img-fluid rounded-start" alt="..."/>
+                </Col>
+                <Col md={8}>
+                  <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
+                    <Card.Text><small className="text-muted">Last updated 3 mins ago</small></Card.Text>
+                  </Card.Body>
+                </Col>
+              </Row>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="my-4">
+          <Col>
+            <div className="callout bg-info text-white p-3 rounded">
+              <h4>Special Offer!</h4>
+              <p>Don't miss out on our limited-time offer. Click here to learn more!</p>
+              <Button variant="light">Learn More</Button>
+            </div>
+          </Col>
+        </Row>          
         <Row>
           {/* Card 1 */}
           <Col md={4} className="mb-4">
