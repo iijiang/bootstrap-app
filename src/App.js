@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Navbar, Nav, Card, Button, Row, Col, Carousel } from 'react-bootstrap';
-import './App.css'; // Make sure this is imported to apply styles
+import './App.css'; // Ensure the CSS file is imported
 
 function App() {
   return (
@@ -67,17 +67,17 @@ function App() {
 
       {/* Main Content */}
       <Container className="main-content mb-5">
-      <Row>
+        <Row>
           {/* Card 1 */}
           <Col md={6} className="mb-2">
             <Card>
               <Row className="g-0">
                 <Col md={4}>
-                  <Card.Img src="https://via.placeholder.com/150x250" className="img-fluid rounded-start" alt="..."/>
+                  <Card.Img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" className="img-fluid rounded-start" alt="Nature"/>
                 </Col>
                 <Col md={8}>
                   <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Nature</Card.Title>
                     <Card.Text>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
                     <Card.Text><small className="text-muted">Last updated 3 mins ago</small></Card.Text>
                   </Card.Body>
@@ -90,11 +90,11 @@ function App() {
             <Card>
               <Row className="g-0">
                 <Col md={4}>
-                  <Card.Img src="https://via.placeholder.com/150x250" className="img-fluid rounded-start" alt="..."/>
+                  <Card.Img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" className="img-fluid rounded-start" alt="City"/>
                 </Col>
                 <Col md={8}>
                   <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>City</Card.Title>
                     <Card.Text>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
                     <Card.Text><small className="text-muted">Last updated 3 mins ago</small></Card.Text>
                   </Card.Body>
@@ -103,6 +103,8 @@ function App() {
             </Card>
           </Col>
         </Row>
+
+        {/* Callout Section */}
         <Row className="my-4">
           <Col>
             <div className="callout bg-info text-white p-3 rounded">
@@ -112,13 +114,14 @@ function App() {
             </div>
           </Col>
         </Row>          
+
         <Row>
           {/* Card 1 */}
           <Col md={4} className="mb-4">
             <Card>
               <Card.Img variant="top" src="https://via.placeholder.com/150" />
               <Card.Body>
-                <Card.Title>Card Title 1</Card.Title>
+                <Card.Title>Adventure</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </Card.Text>
@@ -131,7 +134,7 @@ function App() {
             <Card>
               <Card.Img variant="top" src="https://via.placeholder.com/150" />
               <Card.Body>
-                <Card.Title>Card Title 2</Card.Title>
+                <Card.Title>Mountains</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </Card.Text>
@@ -144,7 +147,7 @@ function App() {
             <Card>
               <Card.Img variant="top" src="https://via.placeholder.com/150" />
               <Card.Body>
-                <Card.Title>Card Title 3</Card.Title>
+                <Card.Title>Beach</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </Card.Text>
@@ -156,7 +159,7 @@ function App() {
       </Container>
 
       {/* Footer */}
-      <footer className="footer py-4">
+      <footer className="footer py-5">
         <Container>
           <p className="text-center mb-0">&copy; 2024 My Website. All Rights Reserved.</p>
         </Container>

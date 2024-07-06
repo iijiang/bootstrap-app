@@ -53,6 +53,15 @@
   margin-top: 20px; /* Add space between the carousel and the content */
 }
 
+.callout {
+  background-color: #17a2b8; /* Bootstrap info color for consistency */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center; /* Center the text inside the callout */
+}
+
 .footer {
   background-color: #f8f9fa; /* Light background for the footer, can be adjusted */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
